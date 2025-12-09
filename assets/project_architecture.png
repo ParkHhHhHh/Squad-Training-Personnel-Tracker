@@ -1,7 +1,0 @@
-Draw a clean architecture diagram showing three folders:
-- env/ (Environment)
-- agent/ (Q-learning Agent)
-- utils/ (Plotting/Helpers)
-And main.py as the top-level controller.
-Use simple icons (file, gear, brain, chart).
-Flat design, soft blue colors, minimal lines.
