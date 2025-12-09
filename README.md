@@ -114,6 +114,7 @@ showing the agent is learning a stable policy.
 
 ```bash
 python main.py
+```
 
 The script will:
 
