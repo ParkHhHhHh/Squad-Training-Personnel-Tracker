@@ -1,29 +1,44 @@
-# Squad Training & Personnel Tracker
+<!-- PROJECT THUMBNAIL -->
+<p align="center">
+  <img src="assets/thumbnail.png" width="70%" alt="Project Thumbnail">
+</p>
 
-A lightweight training & personnel management system inspired by my experience **leading an 8-member squad that ranked 1st among 123 squads** during military basic training.
-
-All data is simulated for security.
-
----
-
-## 📦 Features
-- Personnel management  
-- Training scheduling  
-- Performance scoring & visualization  
-- Lightweight web UI (Streamlit / HTML)  
+<h1 align="center">🎖️ Squad Training Optimization with Reinforcement Learning</h1>
+<p align="center">Undergraduate DS/AI Portfolio Project · Q-learning · Custom RL Environment</p>
 
 ---
 
-## 🛠 Tech Stack
-Python, Streamlit, SQLite
+## 🌟 Overview
+
+This project explores how **Reinforcement Learning (RL)** can be used to design  
+an effective training schedule for a small military squad.  
+
+The idea comes from my experience as a **delegated squad leader in Korean military bootcamp**,  
+where I had to balance:
+
+- 🏃 Physical training  
+- 🎯 Shooting accuracy  
+- 🧭 Tactical exercises  
+- 😴 Rest & recovery  
+
+The project demonstrates how real-world decision-making can be translated into  
+a **Markov Decision Process (MDP)** and solved through **Q-learning**.
 
 ---
 
-## 🔍 Why This Project Matters
-Leadership in the military taught me the importance of:
-- organization  
-- time management  
-- performance tracking  
-- fairness and transparency  
+## 📁 Project Structure
 
-This project models those principles through engineering.
+Squad-Training-RL/
+│
+├── main.py
+├── env/
+│ └── squad_env.py
+├── agent/
+│ └── q_agent.py
+├── utils/
+│ └── plot_results.py
+└── assets/
+├── thumbnail.png
+├── rl_loop.png
+├── project_architecture.png
+└── training_curve_example.png
