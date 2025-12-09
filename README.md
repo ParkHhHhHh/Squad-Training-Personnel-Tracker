@@ -118,13 +118,13 @@ python main.py
 
 The script will:
 
-1. Train the Q-learning agent
+**1.** Train the Q-learning agent
 
-2. Display episodic reward logs
+**2.** Display episodic reward logs
 
-3. Plot training curve
+**3.** Plot training curve
 
-4. Print a sample of learned “optimal actions”
+**4.** Print a sample of learned “optimal actions”
 
 ---
 
