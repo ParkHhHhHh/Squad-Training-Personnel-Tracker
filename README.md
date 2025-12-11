@@ -28,7 +28,7 @@ a **Markov Decision Process (MDP)** and solved through **Q-learning**.
 
 ## 📁 Project Structure
 
-```bash
+```powershell
 Squad-Training-RL/
 │
 ├── main.py
